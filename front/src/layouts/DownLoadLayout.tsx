@@ -12,11 +12,11 @@ const DownLoadLayout = () => {
       <div className="w-full h-full flex flex-row">
         <div className="basis-1/2 w-full text-left md:p-5 m-auto">
           <h2 className="text-5xl">
-            머라머라
+          반려동물의
             <br />
-            홍보용 문구
+            모든 것 어디서?
           </h2>
-          <h1 className="text-7xl">제품 소개</h1>
+          <h1 className="text-7xl">코펫에서!</h1>
           <div className="flex flex-row">
             <CommonButton>버튼</CommonButton>
             <CommonButton>버튼2</CommonButton>

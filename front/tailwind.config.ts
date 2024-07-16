@@ -32,6 +32,10 @@ const config: Config = {
         "6xl": "3.5rem",
         "7xl": "4.5rem",
       },
+      stroke: {
+        '-webkit-text-stroke-width': '1px',
+        '-webkit-text-stroke-color': 'black',
+      },
     },
   },
   plugins: [],

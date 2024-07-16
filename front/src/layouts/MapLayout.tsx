@@ -10,7 +10,6 @@ const MapLayout = () => {
     <MainContainer>
       <div className="flex flex-col md:flex-row w-full items-center justify-center">
         <div className="basis-1/2 md:mb-10 ">
-          <div className="rotate-[330deg] ">
             <Image
               src={MapImage}
               alt=""
@@ -18,15 +17,9 @@ const MapLayout = () => {
               width={367.49}
               height={769.72}
             />
-          </div>
         </div>
         <div className="basis-1/2 m-auto items-center justify-center text-right">
-          <h1 className="text-4xl my-5">지도 기능</h1>
-          <h2 className="text-l">
-            로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인
-            분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적
-            연출을 보여줄 때 사용하는 표준 채우기 텍스트이다.
-          </h2>
+            반경 내에 뜨는 산책 거리와 시간 기록 및 경로를 시각화하여 정보 제공.
         </div>
       </div>
     </MainContainer>

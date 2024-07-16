@@ -3,18 +3,27 @@
 import MainContainer from "@/components/common/MainContainer";
 import React from "react";
 import Image from "next/image";
-import petPlacePhone from "../../public/images/PetPlacePhone.png";
+import petPlacePhone from "../../public/assets/phone.svg";
+import petPlace from "../../public/assets/petplace.svg";
 
 const PetPlaceLayout = () => {
   return (
     <MainContainer>
       <div className="m-auto m-0 w-full flex flex-col md:flex-row md:mx-auto">
         <div className="my-5 md:my-auto mx-0 w-full text-left">
-          <h1 className="text-4xl my-5">펫플레이스</h1>
+          
+        <div className="mr-16 md:w-full flex flex-row-reverse">
+          <Image
+            src={petPlace}
+            alt=""
+            priority={true}
+            width={439.54}
+            height={430}
+          />
+          </div>
           <h2 className="text-l md:text-xl">
-            로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인
-            분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적
-            연출을 보여줄 때 사용하는 표준 채우기 텍스트이다.
+          반경 내에 뜨는 어플 타이용자의 프로필 상세보기 및 팔로우
+          기능. 거리, 시간 기록 및 산책경로를 시각화하여 확인해요.
           </h2>
         </div>
         <div className="mr-16 md:w-full flex flex-row-reverse">
@@ -22,8 +31,8 @@ const PetPlaceLayout = () => {
             src={petPlacePhone}
             alt=""
             priority={true}
-            width={367.49}
-            height={769.72}
+            width={1000}
+            height={1000}
           />
         </div>
       </div>

@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import MainContainer from "@/components/common/MainContainer";
+import textTitle from "../../public/assets/comunity.svg";
 import Forum from "../../public/images/Forum.png";
 import Chating from "../../public/images/Chating.png";
 
@@ -11,8 +12,8 @@ const ComunityLayout = () => {
     <MainContainer>
       <div className="m-auto basis-2/5 w-full flex md:flex-row flex-col">
         <div className="flex flex-col md:m-auto mt-20 text-3xl md:text-4xl">
-          <h1 className="md:mr-24">소통을 위한</h1>
-          <h1 className="md:ml-24">채팅과 게시판</h1>
+          <Image src={textTitle} alt="" width={400} height={180}
+          />
         </div>
         <div className="m-auto">
           <Image src={Chating} alt="" width={286} height={31} />
@@ -31,16 +32,15 @@ const ComunityLayout = () => {
         <div className="h-full basis-3/5 text-m justify-center flex flex-col">
           <div className="flex flex-row m-auto">
             <span className="w-4/5">
-              로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽
-              디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나
-              시각적 연출을 보여줄 때 사용하는 표준 채우기 텍스트이다.{" "}
+            커뮤니티를 구성해 개인간의 정보 공유 및 소통공간
+커뮤니티내 키워드를 중심으로 산책알바, 임시보호등의 키워드를 이용으로 편의성 증가
+보호자간 채팅 서비스를 통해 커뮤니티 활용과 소통해요{". "}
             </span>
           </div>
           <div className="flex flex-row-reverse m-auto">
             <span className="w-4/5">
-              로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽
-              디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나
-              시각적 연출을 보여줄 때 사용하는 표준 채우기 텍스트이다.{" "}
+            동물의 현재 상태를 설명하면 해결 방법 및 주변 병원을 알려주는 상담사 챗봇
+            "귄귄이"까지{"!"}
             </span>
           </div>
         </div>
